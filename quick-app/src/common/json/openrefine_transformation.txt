@@ -1,0 +1,23 @@
+    {
+      "id" : {{jsonize(cells["register_id"].value)}},
+      "name" : {{jsonize(cells["name"].value)}},
+      "description" : {{jsonize(cells["description"].value)}},
+      "wikidata" : {{jsonize(cells["Qid"].value)}},
+      "type" : {{jsonize(cells["type"].value)}},
+      "patrimoni" : {{jsonize(cells["Inventari del Patrimoni Arquitectònic de Catalunya code"].value)}},
+      "urls" : [{{if(cells["official website"].value!=null,jsonize(cells["official website"].value), '')}}],
+      "commons_cat" : {{jsonize(cells["Commons category"].value)}},
+      "architectural_style" : {{jsonize(cells["architectural style"].value)}},
+      "architect" : {{jsonize(cells["architect"].value)}},
+      "original_name" : {{jsonize(cells["original_name"].value)}},
+      "institution_name" : {{jsonize(cells["institution_name"].value)}},
+      "neighborhood" : {{jsonize(cells["addresses_neighborhood_name"].value)}},
+      "addresses_district_name" : {{jsonize(cells["addresses_district_name"].value)}},
+      "lat" : {{jsonize(cells["lat"].value)}},
+      "lon" : {{jsonize(cells["lon"].value)}},
+      "image_license" : {{jsonize(cells["License"].value)}},
+      "images" : [{{jsonize(cells["image_url"].value)}}],
+      "image_commons" : {{jsonize(cells["Commons"].value)}},
+      "attributions": ["Open Data BCN"],
+      "image_author" : {{jsonize(cells["Author"].value)}}
+    }

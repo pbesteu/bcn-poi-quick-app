@@ -1,6 +1,6 @@
 {
-    "package": "org.example.myquickapp",
-    "name": "City Street Heritage",
+    "package": "es.espinr.bcntourism",
+    "name": "BCN Street Heritage",
     "versionName": "0.1",
     "versionCode": 1,
     "minPlatformVersion": 1078,

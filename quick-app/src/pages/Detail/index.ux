@@ -56,6 +56,12 @@
                 <span else>;</span>
               </text>
             </block>
+            <block>
+              <text class="item-text-contributor" if="{{ item.image_author }}">
+                <a if={{item.image_license}} href="{{item.image_license}}">{{ $t('message.detail.license') }}</a>
+                 {{ $t('message.detail.by') }} {{ item.image_author }}
+              </text>
+            </block>            
           </div>
           <div class="title-line"></div>
         </list-item>
@@ -64,6 +70,11 @@
           <text class="list-item" if="{{ item.wikidata }}">
             <a href="https://www.wikidata.org/wiki/{{ item.wikidata }}">
               {{ $t('message.detail.wikidata') }}
+            </a>
+          </text>
+          <text class="list-item" if="{{ item.patrimoni }}">
+            <a href="http://invarquit.cultura.gencat.cat/Cerca/Fitxa?index=0&consulta=&codi={{ item.patrimoni }}">
+              {{ $t('message.detail.patrimoni') }}
             </a>
           </text>
           <text class="list-item" if="{{ item.freebase }}">

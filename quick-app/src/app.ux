@@ -203,9 +203,7 @@ export default {
     console.info(`Generating individual map URL for ${item.id}...`)
     const geojson = {
       type: "Feature",
-      properties: {
-        popupContent: item.name
-      },
+      properties: {},
       geometry: {
         type: "Point",
         coordinates: [ parseFloat(item.lon), parseFloat(item.lat) ]

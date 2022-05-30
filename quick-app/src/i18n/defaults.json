@@ -35,7 +35,10 @@
             "approx_m": "Approx. at {distance} m from here",
             "acknowledgements": "A big thanks to our contributors:",
             "wikidata": "Wikidata",
+            "patrimoni": "Inventari del Patrimoni Arquitectònic de Catalunya",
             "freebase": "Freebase",
+            "license": "Image license",
+            "by": "by ",
             "more_info": "More information:",
             "loading_map": "Loading map...",
             "share": {
