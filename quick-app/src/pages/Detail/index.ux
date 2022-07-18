@@ -120,8 +120,14 @@
         <input
           class="button"
           type="button"
+          value="{{$t('message.detail.buttons.call')}}"
+          @click="makeCall"
+        />
+        <input
+          class="button"
+          type="button"
           value="{{$t('message.detail.buttons.feedback')}}"
-          @click="feedbackItem"
+          @click="shareItem"
         />
         <input
           class="button"
@@ -137,7 +143,8 @@
 <script>
 import router from '@system.router'
 import share from '@system.share' 
-import prompt from '@system.prompt';
+import prompt from '@system.prompt'
+import vibrator from '@system.vibrator'
 import webview from '@system.webview' 
 
 export default {
@@ -221,7 +228,11 @@ export default {
     webview.loadUrl({ 
       url: `${appInfo.issue_url}+${encodeURIComponent(identifier)}`
     })
-  }
+  },
+  makeCall() {
+    console.info('Implement the call method here')
+    vibrator.vibrate({ mode: 'long' })
+  }  
 }
 </script>
 

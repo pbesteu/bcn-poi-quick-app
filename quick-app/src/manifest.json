@@ -35,6 +35,9 @@
         },
         {
             "name": "system.webview"
+        },
+        {
+            "name": "system.vibrator"
         }
     ],
     "config": {
