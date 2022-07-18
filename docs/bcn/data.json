@@ -6649,7 +6649,7 @@
                 {
                   "id" : "﻿99400076320",
                   "name" : "solar cell panel",
-                  "description" : null,
+                  "description" : "solar cell panel",
                   "wikidata" : "Q217941",
                   "type" : "cell panel",
                   "patrimoni" : null,
@@ -6695,7 +6695,7 @@
                 {
                   "id" : "﻿92086030396",
                   "name" : "Platja de la Barceloneta",
-                  "description" : null,
+                  "description" : "Platja de la Barceloneta",
                   "wikidata" : "Q21815357",
                   "type" : "beach",
                   "patrimoni" : null,
