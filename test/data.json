@@ -1,0 +1,84 @@
+{
+  "meta": {
+      "app_title": "Huawei Sustainability",
+      "version": 1,
+      "updated": "2022-10-10",
+      "source_url": "https://espinr.github.io/local-cultural-heritage/global/news/data.json",
+      "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",
+      "marketplace_url": ""
+  },
+  "content": {
+      "en": {
+          "app": {
+              "theme": {
+                  "brand": "#CF0A2C",
+                  "complementary": "#232527"
+              },
+              "repository_url": "https://github.com/espinr/local-cultural-heritage/tree/main/docs/be/leuven",
+              "text_info": "This app is just a test to try the methodology.",
+              "text_acknowledge": "This quick app is an open-source project powered by open data and enriched by the community.",
+              "text_feedback": "Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures. This app is created by locals and experts.",
+              "feedback_url": "https://espinr.github.io/local-cultural-heritage/be/leuven/#get-involved",
+              "issue_url": "https://github.com/espinr/local-cultural-heritage/issues/new?labels=be/leuven&template=update_request.md&title=Update+request+of+"
+          },
+          "pois": [
+      {
+                  "id": "news1",
+                  "lat": "15.512862334142213",
+                  "lon": "101.12635510351264",
+                  "type": "cybersecurity",
+                  "name": "Thai PM Gives Huawei Thailand Cybersecurity Excellence Award",
+                  "images": [
+                      "https://www-file.huawei.com/-/media/corporate/images/news4/2022/q3/220823-2.jpg"
+                  ],
+                  "description": " The Thai National Cyber Security Agency (NCSA) has awarded Huawei and several other organizations the Prime Minister Awards at a ceremony held at Santi Maitri Building Government House.",
+                  "more": "Huawei Thailand's CEO Abel Deng accepted the award from Prime Minister Prayut Chan-o-cha on behalf of the multinational ICT provider.",
+                  "attributions": [ "Huawei" ],
+        "urls": [ "https://www.huawei.com/en/news/2022/8/thailand-prime-minister-award" ]
+              },
+      {
+                  "id": "news2",
+                  "lat": "48.282325450123935",
+                  "lon": "14.25361171376694",
+                  "type": "environment",
+                  "name": "5G Smart Farming Tour",
+                  "images": [
+                      "https://www-file.huawei.com/-/media/corp2020/images/sustainability/events/green-in-sites/list4.jpg"
+                  ],
+                  "description": "GREEN IN-SITES: 5G Smart Farming Tour, either online or onsite, on October 4, 2022",
+                  "more": "The event shall build upon the successful cooperation between Dronetech and Huawei, and the impending launch of more comprehensive and intelligent practices. During the tour, we will share the progress and plan of the 5G Smart Farming project, show the live 5G Smart Farming and hold discussions with government representatives, sustainability and technology experts, and media regarding how 5G, drones, AI, and cloud can pave the way for more sustainable development.",
+                  "attributions": [ "Huawei" ],
+        "urls": [ "https://www.huawei.com/en/sustainability/the-latest/events/5g-smart-farming-tour" ]
+              },
+      {
+                  "id": "news3",
+                  "lat": "50.84990103085106",
+                  "lon": "4.350353252878972",
+                  "type": "sustainability",
+                  "name": "Huawei: Technology for Sustainable Development",
+                  "images": [
+                      "https://www-file.huawei.com/-/media/corp2020/images/sustainability/1/latest/technology-for-sustainable-development.jpg"
+                  ],
+                  "description": "Chinese enterprises that want to build quality brands with a competitive edge in the global market can look to Huawei as an example of how to create social value in business activities...",
+                  "more": "The costs of the modern technologies that we all enjoy are often ignored. A cloud service provider operating 34 service areas around the world for one year, for example, consumes three times as much electricity as the entire city of Chicago uses in three years. As we enter a truly digital age where data is growing exponentially, energy consumption will only continue to increase.",
+                  "attributions": [ "Huawei" ],
+        "urls": [ "https://www.huawei.com/en/sustainability/the-latest/views/technology-for-sustainable-development" ]
+              },
+      {
+                  "id": "news4",
+                  "lat": "8.007258488365656",
+                  "lon": "-1.219810774666849",
+                  "type": "tech4all",
+                  "name": "Technology-enabled Open School Systems for All",
+                  "images": [
+                      "https://www-file.huawei.com/-/media/corp2020/images/tech4all/openschool/open-school-800.jpg"
+                  ],
+                  "description": "The establishment of crisis-resistant school systems in low-resource countries that ensure continuity and quality of learning is particularly important.",
+                  "more": "Since its outbreak in 2020, the COVID-19 pandemic has disrupted education systems globally, affecting the most vulnerable learners the hardest. It has increased inequalities and exacerbated a pre-existing education crisis. School closures have ranged from no closures in a handful of countries to up to more than a full school year. Lack of connectivity and devices excluded at least one third of students from pursuing learning remotely.",
+                  "attributions": [ "Huawei" ],
+        "urls": [ "https://www.huawei.com/en/tech4all/openschool" ]
+              }
+          ]
+      }
+  }
+}
